@@ -1,0 +1,20 @@
+
+
+9.8                Gravity acceleration in m/s^2
+
+1000               Density (kg/m^3) of the ambient fluid
+
+0.00025 0.00025        Median grain diameter d50(m)[carbonate siliciclastic]
+2700 2600         Volumetric mass density of grain in kg/m3 [calcite quarz]
+
+0.07 0.07             Volumetric sediment concentration Cv of a suspension Cv = VolSed./VolTot [carbonate siliciclastic]
+0.02               Concentration Threshold between debris flow and streamflow/turbidity
+
+15 12            Velocity threshold (m/s) to stop transport and commence deposition [carbo silic] 
+
+0.1            Minimum flow thickness threshold to stop transport/deposition (set for each flow type??)
+ 
+0.3 0.3            Volume sediment fraction to be deposited at each step [carbonate siliciclastic]
+
+1 15                  FlowRadiationFactor   [carbonate siliciclastic]
+0 0                  DepositSlopeFactor    [carbonate siliciclastic]

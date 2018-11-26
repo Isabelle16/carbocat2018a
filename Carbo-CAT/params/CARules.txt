@@ -1,0 +1,4 @@
+Dist	MinNeighbs	MaxNeighbs  MinTrigger	MaxTrigger  TriggerFacies
+1          0           8          	0           8          1 
+2          3           8          	0           10          2  
+2          3           8          	0           10          3

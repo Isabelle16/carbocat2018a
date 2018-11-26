@@ -1,0 +1,7 @@
+3                    max siliciclastic input (= Amplitude)
+1                  siliciclastic input sinusoid period                  
+12                         number of siliciclastic source cells 
+75 75 75 75 75 75 75 75 75 75 75 75               y coord position of input siliciclastic
+45 47 49 51 53 55 57 59 61 63 65 67                      x coord position of input siliciclastic
+10                     number of events per iteration
+1                   siliciclatic start time (iteration) 

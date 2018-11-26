@@ -1,0 +1,9 @@
+ordered         %CA routines: 'ordered' or 'production'
+on             %wave Energy
+on            %siliciciclastics: 'on' or 'off'
+off              %carbonate concentration: 'on' or 'off'
+off              %soil deposition: 'on'  or 'off'
+pre-exposed     %cell state when re-flooding: 'empty' or 'pre-exposed'
+file            %sea level curve origin: 'sinusoid' or 'file'
+unwrap            %how to check neighbours or transport: 'wrap' or 'unwrap'
+on             %pelagic routine 'on' or 'off'

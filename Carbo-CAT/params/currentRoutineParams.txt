@@ -1,0 +1,8 @@
+0.0005                  Median grain diameter threshold for suspended/bedload transport
+0.005                 Min sediment thickness for entrainmnet
+5                  Current shear stress N/m2 [https://woodshole.er.usgs.gov/project-pages/coastal_model/Tools/wave-current_stress.html}
+100                   Water depth below which current shear stress is zero
+0.02                  Current decrease with depth dump (larger = the function decrease more steeply)
+-1                    Current direction vector y component
+0                     Current direction vector x component 
+0.3                   Fraction of sediment to be deposited at every step during sedimentation from suspended load

@@ -1,0 +1,79 @@
+TestModel   	Model Name
+
+1000                total Iterations was 2700-1500
+0.001                   timestep( My) 
+
+2                    Total number of eustatic curves
+2                    Total number of sea level oscillation order 
+10                  Eustatic shift iteration 
+
+
+1.5 0.1                    Eustasy period  (My) 
+60 60                      Eustasy amplitude  (m) 
+
+1.5 0.1                   Eustasy period (My) 
+60 60                    Eustasy amplitude (m) 
+
+1                       Timesteps per CA iteration at max prod rate
+1                       Timesteps per CA iteration at min prod rate
+
+1000                      Bathimetry difference between cells that get disconected in CA
+
+3                    Number of producing factories
+
+4500                  Lithology 1 carb Production Rate (mMy-1)    REEF REGION
+550                  Lithology 1 Surface light intensity / bell shape, depth of maximum production
+0.30                     Lithology 1 extinction coefficient  / bell shape, vertical width of the bell
+3                     Lithology 1 saturating light / bell shape, shape of the curve, rounded or spiky
+5                       Lithology 1 transport product facies
+0.6                     Lithology 1 transported fraction of total production
+0.0001                     Lithology 1 median grain diameter in meter (D50)
+40000                  Lithology 1 min wave energy
+100000000                  Lithology 1 max wave energy 
+0.1                    Siliciclastic sensitivity (kill value)             
+
+
+3500               Lithology 2 carb Production Rate (mMy-1)    INTERIOR 1 
+520                   Lithology 2 Surface light intensity / bell shape, depth of maximum production
+0.125                    Lithology 2 extinction coefficient  / bell shape, vertical width of the bell
+4                   Lithology 2 saturating light / bell shape, shape of the curve, rounded or spiky
+6                        Lithology 2 transport product facies
+0.5                  Lithology 2 transported fraction of total production
+0.0006                     Lithology 2 median grain diameter in meter (D50)
+0                  Lithology 2 min wave energy
+40000                  Lithology 2 max wave energy  
+0.5                    Siliciclastic sensitivity (kill value)             
+
+3500              Lithology 3 carb Production Rate (mMy-1)    INTERIOR 2 
+520                   Lithology 3 Surface light intensity / bell shape, depth of maximum production
+0.125                    Lithology 3 extinction coefficient  / bell shape, vertical width of the bell
+4                   Lithology 3 saturating light / bell shape, shape of the curve, rounded or spiky
+7                        Lithology 3 transport product facies
+0.7                  Lithology 3 transported fraction of total production
+0.00001                     Lithology 3 median grain diameter in meter (D50)
+0                  Lithology 3 min wave energy
+40000                   Lithology 3 max wave energy 
+0.2                    Siliciclastic sensitivity (kill value) 
+
+
+100              Pelagic carbonate Production Rate (mMy-1)    
+0              Pelagic deposition wave energy boundary (less/equal to)
+0              Pelagic deposition current velocity boundary (less/equal to)
+
+
+params/CARules.txt                              CA rules input file
+params/initialFaciesMap.txt                       initial facies map
+params/initialTopography.txt                     initial water depth map
+params/paramsConcentration.txt                  concentration input parameters
+params/paramsSiliciclastic.txt                  silicilastic input parameters
+params/zeroWaterCurve.txt                       water level curve
+params/paramsProcesses.txt                      model processes
+params/LobyteParams.txt                         lobyte params               
+params/waveRoutineParams.txt                    wave routine params  
+params/currentRoutineParams.txt                 cross platform transport params  
+
+
+5                       Number of time lines to plot on cross sections
+20 40 60 80 100         Ages of the time lines in terms of model iteration number
+5                       Number of maps
+20 40 60 80 100         Map ages

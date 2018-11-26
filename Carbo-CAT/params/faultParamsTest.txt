@@ -1,0 +1,38 @@
+SingleFault  	Model Name
+
+1  Number of faults (subs.maxF) 
+
+1000      Total iterations (subs.maxT)
+0.001               Timestep (My)
+110                 x Size 
+75                 y Size
+0.2                   cell size, in km
+100                    Regional Subsidence over 1 My, in metres  750, if 2 values [init final]
+0                   Regional subsidence increase 1, or decrease -1, or const 0 
+
+
+0              Dummy Fault asymmetrical fault index (1 or -1 grows only to one side, 0 grows to both sides) (subs.AFIndex)
+0.6               Dummy Fault final Slip (in km) (subs.fHeight) = slip vertical component (fault throw)
+50           Dummy Fault final extent of deformation in km (subs.fDef)
+89                  Dummy Fault angle (dip) (subs.fDip)
+0                 Dummy Fault curvature index, 1 convexe, 0 straight
+0                   Dummy Fault rate index, 0 constant, 1 or -1 accel. or dec.
+0                   Dummy Fault rotational index, 0 non rotational, 1 rotational (subs.rotIndex)
+55               Dummy Fault x coordinate of fault's mid point (subs.xI)
+40                  Dummy Fault y coordinate of fault's mid point (subs.yI)
+90                Dummy Fault direction in degrees. 0-360
+1                   Dummy Fault initial length (subs.faultLengthI)
+50              Dummy Fault final length (subs.faultLengthF)
+0.5                   Dummy Fault plane view shape,  0 (triangular), 1 (squared), in between is curved
+0.04                  Dummy Fault final footwall uplift in km (subs.fwEight)
+10                  Dummy Fault final extent of footwall uplift in km
+1                  Dummy Fault starting Time (iteration number) (subs.startingTime)
+700              Dummy Fault ending Time (iteration number)
+
+
+
+
+
+
+
+

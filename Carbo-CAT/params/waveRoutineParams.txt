@@ -1,0 +1,9 @@
+1            wind direction vector y component
+0              wind direction vector x component  
++y             wind direction (+- y/+-x)
+18             wind velocity in m/s  
+8              wave period in deep water sec [3s - 20s]          
+70            water depth in meters below which the wave energy is zero
+0.002         dump (larger = wave energy decrease more steeply with depth)
+20          fetch length outside model boundary (will be then multiplied by dx to have the area)     was 1
+2           reef extent (number of model cell that we consider high energy after the wave brake -i.e. wave energy dissipation-)
